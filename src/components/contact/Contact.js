@@ -14,7 +14,7 @@ const Contact = () => {
         {/* Twitter */}
         <a
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           href="https://www.twitter.com/tamilarasan1153"
         >
           <svg
@@ -88,7 +88,7 @@ const Contact = () => {
         {/* LinkedIn */}
         <a
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
           href="https://www.linkedin.com/in/tamizh1153"
         >
           <svg
@@ -170,7 +170,11 @@ const Contact = () => {
           </svg>
         </a>
         {/* Github */}
-        <a target="_blank" rel="noopener" href="https://github.com/Tamizh-1153">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/Tamizh-1153"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="261"

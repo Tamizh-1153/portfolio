@@ -25,7 +25,7 @@ const Project = () => {
           <a
             className="btn project_btn"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             href="https://gmail-clone-tm.netlify.app/"
           >
             Website
@@ -48,7 +48,7 @@ const Project = () => {
           <a
             className="btn project_btn"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             href="https://urlshortener-tm.netlify.app/"
           >
             Website
@@ -71,7 +71,7 @@ const Project = () => {
           <a
             className="btn project_btn"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             href="https://gmail-clone-tm.netlify.app/"
           >
             Website
