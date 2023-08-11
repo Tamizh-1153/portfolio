@@ -2,13 +2,12 @@ import React, { useState } from "react"
 import "./header.css"
 
 const Header = () => {
+  const [mobileMenu, setMobileMenu] = useState(false)
 
-  const [mobileMenu,setMobileMenu]=useState(false)
-
-  const toggleMenu=()=>{
-    setMobileMenu(prevState=>!prevState)
+  const toggleMenu = () => {
+    setMobileMenu((prevState) => !prevState)
   }
-  document.body.style.overflowY=mobileMenu?'hidden':'auto'
+  document.body.style.overflowY = mobileMenu ? "hidden" : "auto"
 
   return (
     <>
@@ -31,7 +30,7 @@ const Header = () => {
               </a>
             </li>
             <li className="header_line"></li>
-            <li>
+            {/* <li>
               <button className="header_mode">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -47,9 +46,12 @@ const Header = () => {
                   />
                 </svg>
               </button>
-            </li>
+            </li> */}
             <li>
-              <a className="resume btn" href="#contact">
+              <a
+                className="resume btn"
+                href="https://drive.google.com/file/d/1dZXYLNKBLUsWdgl615jFJ2YMdPypyP_k/view?usp=sharing"
+              >
                 Resume
               </a>
             </li>
@@ -69,7 +71,7 @@ const Header = () => {
           </button>
         </nav>
       </header>
-       {/* Mobile Menu */}
+      {/* Mobile Menu */}
       <div className={mobileMenu ? "mobile_nav" : "hide"}>
         <nav>
           <ul className="mobile_menu">
@@ -101,7 +103,7 @@ const Header = () => {
               </a>
             </li>
             <li className="mobile_line"></li>
-            <li>
+            {/* <li>
               <button
                 onClick={() => setMobileMenu(false)}
                 className="mobile_mode"
@@ -120,9 +122,15 @@ const Header = () => {
                   />
                 </svg>
               </button>
-            </li>
-            <li onClick={() => setMobileMenu(false)} className="mobile_btn btn">
-              Resume
+            </li> */}
+            <li>
+              <a
+                onClick={() => setMobileMenu(false)}
+                className="mobile_btn btn"
+                href="https://drive.google.com/file/d/1dZXYLNKBLUsWdgl615jFJ2YMdPypyP_k/view?usp=sharing"
+              >
+                Resume
+              </a>
             </li>
           </ul>
         </nav>
