@@ -1,0 +1,133 @@
+.intro {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.intro_image {
+  width: 70px;
+  height: 100px;
+  box-shadow: 0 0 3px 7px rgba(248, 248, 248, 0.3)  ;
+  animation: profile_pic 5s ease-in-out infinite 1s;
+}
+
+@keyframes profile_pic {
+  0%{
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50%{
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100%{
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+.intro_name {
+  color: var(--col-slate600);
+  font-size: var(--size-base);
+}
+
+.intro_title {
+  color: var(--col-slate400);
+  text-transform: uppercase;
+  font-size: var(--size-4xl);
+  letter-spacing: -0.03em;
+  line-height: 0.9;
+}
+
+.intro_description {
+  max-width: 60ch;
+  font-size: var(--size-sm);
+  color: var(--col-slate600);
+}
+
+.intro_btn {
+  text-transform: capitalize;
+  font-size: var(--size-sm);
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .intro {
+    gap: 1.5rem;
+  }
+
+  .intro_image {
+    width: 100px;
+    height: 150px;
+  }
+
+  .intro_name {
+    font-size: var(--size-lg);
+  }
+
+  .intro_title {
+    font-size: var(--size-5xl);
+  }
+
+  .intro_description {
+    font-size: var(--size-base);
+  }
+
+  .intro_btn {
+    font-size: var(--size-base);
+  }
+}
+
+/* large */
+@media (min-width: 1024px) {
+  .intro_image {
+    width: 120px;
+    height: 180px;
+  }
+
+  .intro_name {
+    font-size: var(--size-2xl);
+  }
+
+  .intro_title {
+    font-size: var(--size-7xl);
+  }
+
+  .intro_description {
+    font-size: var(--size-lg);
+  }
+
+  .intro_btn {
+    font-size: var(--size-lg);
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .intro {
+    gap: 2rem;
+  }
+  .intro_image {
+    width: 150px;
+    height: 220px;
+  }
+
+  .intro_name {
+    font-size: var(--size-4xl);
+  }
+
+  .intro_title {
+    font-size: var(--size-9xl);
+  }
+
+  .intro_description {
+    font-size: var(--size-xl);
+  }
+
+  .intro_btn {
+    font-size: var(--size-xl);
+  }
+}
+
+
