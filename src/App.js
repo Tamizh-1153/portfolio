@@ -1,14 +1,15 @@
-import './App.css';
-import About from './components/about/About';
-import Contact from './components/contact/Contact';
-import Footer from './components/footer/Footer';
-import Header from './components/header/Header';
-import Intro from './components/intro/Intro';
-import Project from './components/projects/Project';
+
+import "./App.css"
+import About from "./components/about/About"
+import Contact from "./components/contact/Contact"
+import Footer from "./components/footer/Footer"
+import Header from "./components/header/Header"
+import Intro from "./components/intro/Intro"
+import Project from "./components/projects/Project"
 
 function App() {
   return (
-    <div >
+    <div>
       <Header />
       <main>
         <Intro />
@@ -18,7 +19,7 @@ function App() {
         <Footer />
       </main>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

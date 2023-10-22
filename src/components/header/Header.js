@@ -50,7 +50,7 @@ const Header = () => {
             <li>
               <a
                 className="resume btn"
-                href="https://drive.google.com/file/d/1dZXYLNKBLUsWdgl615jFJ2YMdPypyP_k/view?usp=sharing"
+                href="https://drive.google.com/file/d/1-iMkYoX_w2AsRHjJVxfsii4Fb2yYG4Zq/view?usp=share_link"
               >
                 Resume
               </a>

@@ -1,6 +1,5 @@
 .work {
   text-align: center;
-
 }
 
 .work_title {
@@ -9,12 +8,12 @@
   margin: 1em;
 }
 
-.project_img img{
+.project_img img {
   opacity: 90%;
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
-.project_img img:hover{
-  transform: scale(1.2)
+.project_img img:hover {
+  transform: scale(1.2);
 }
 
 .project_desp_wrapper {
@@ -70,21 +69,23 @@
 
 /* sm */
 @media (min-width: 640px) {
-  .work{
+  .work {
     margin-top: 5rem;
   }
   .work_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "img1 content1"
-      "content2 img2"
-      "img3 content3";
+      " content1 img1"
+      "img2 content2 "
+      "content3 img3"
+      "content4 img4"
+      ;
     place-items: center;
     gap: 4rem;
   }
 
-  .work_title{
+  .work_title {
     margin-bottom: 5rem;
   }
   .img1 {
@@ -180,7 +181,7 @@
     font-size: var(--size-2xl);
   }
 
-  .work{
+  .work {
     margin: 0 auto;
   }
 }
