@@ -46,6 +46,17 @@
   font-size: var(--size-sm);
 }
 
+.button_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sourceCode_link {
+  color: var(--col-slate600);
+  text-decoration: none;
+}
+
 /* xs */
 @media (min-width: 475px) {
   .work_title {

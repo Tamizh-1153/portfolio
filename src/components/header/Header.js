@@ -50,6 +50,8 @@ const Header = () => {
             <li>
               <a
                 className="resume btn"
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://drive.google.com/file/d/1-iMkYoX_w2AsRHjJVxfsii4Fb2yYG4Zq/view?usp=share_link"
               >
                 Resume

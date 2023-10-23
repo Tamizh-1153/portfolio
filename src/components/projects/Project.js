@@ -4,6 +4,7 @@ import gmail_clone from "../../assets/Gmail_clone.jpg"
 import eShopping from "../../assets/eShopping.png"
 import realEstate from "../../assets/realEstate.png"
 import crm from "../../assets/crm.png"
+import { Menu, MenuDropdown, MenuItem, MenuLabel, MenuTarget } from "@mantine/core"
 
 const Project = () => {
   return (
@@ -28,14 +29,48 @@ const Project = () => {
             authentication which ensures secure access and a personalized mail
             service.
           </p>
-          <a
-            className="btn project_btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://gmail-clone-tm.netlify.app/"
-          >
-            Website
-          </a>
+          <div className="button_container">
+            <a
+              className="btn project_btn"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://gmail-clone-tm.netlify.app/"
+            >
+              Website
+            </a>
+            <Menu
+              withArrow
+              trigger="hover"
+              transitionProps={{ transition: "rotate-right", duration: 400 }}
+            >
+              <MenuTarget>
+                <button className="btn project_btn">Github</button>
+              </MenuTarget>
+              <MenuDropdown>
+                <MenuLabel>Source code</MenuLabel>
+                <MenuItem>
+                  <a
+                    className="sourceCode_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Tamizh-1153/Gmail-clone-frontend"
+                  >
+                    Frontend
+                  </a>
+                </MenuItem>
+                <MenuItem>
+                  <a
+                    className="sourceCode_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Tamizh-1153/Gmail-clone-backend"
+                  >
+                    Backend
+                  </a>
+                </MenuItem>
+              </MenuDropdown>
+            </Menu>
+          </div>
         </div>
 
         {/* Project 2 */}
@@ -59,14 +94,48 @@ const Project = () => {
             integration allows payment from user and using stripe webhook, order
             details are updated in database.
           </p>
-          <a
-            className="btn project_btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://online-shopping-tm.netlify.app/"
-          >
-            Website
-          </a>
+          <div className="button_container">
+            <a
+              className="btn project_btn"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://online-shopping-tm.netlify.app/"
+            >
+              Website
+            </a>
+            <Menu
+              withArrow
+              trigger="hover"
+              transitionProps={{ transition: "rotate-right", duration: 400 }}
+            >
+              <MenuTarget>
+                <button className="btn project_btn">Github</button>
+              </MenuTarget>
+              <MenuDropdown>
+                <MenuLabel>Source code</MenuLabel>
+                <MenuItem>
+                  <a
+                    className="sourceCode_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Tamizh-1153/eShopping-client"
+                  >
+                    Frontend
+                  </a>
+                </MenuItem>
+                <MenuItem>
+                  <a
+                    className="sourceCode_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Tamizh-1153/eShopping-server"
+                  >
+                    Backend
+                  </a>
+                </MenuItem>
+              </MenuDropdown>
+            </Menu>
+          </div>
         </div>
 
         {/* Project 3 */}
@@ -86,14 +155,48 @@ const Project = () => {
             provides a seamless and intuitive experience for users interested in
             buying, selling, or renting real estate properties.
           </p>
-          <a
-            className="btn project_btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://real-estate-booking-tm.netlify.app/"
-          >
-            Website
-          </a>
+          <div className="button_container">
+            <a
+              className="btn project_btn"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://real-estate-booking-tm.netlify.app/"
+            >
+              Website
+            </a>
+            <Menu
+              withArrow
+              trigger="hover"
+              transitionProps={{ transition: "rotate-right", duration: 400 }}
+            >
+              <MenuTarget>
+                <button className="btn project_btn">Github</button>
+              </MenuTarget>
+              <MenuDropdown>
+                <MenuLabel>Source code</MenuLabel>
+                <MenuItem>
+                  <a
+                    className="sourceCode_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Tamizh-1153/real-estate-booking-client"
+                  >
+                    Frontend
+                  </a>
+                </MenuItem>
+                <MenuItem>
+                  <a
+                    className="sourceCode_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Tamizh-1153/real-estate-booking-server"
+                  >
+                    Backend
+                  </a>
+                </MenuItem>
+              </MenuDropdown>
+            </Menu>
+          </div>
         </div>
 
         {/* Project 4 */}
@@ -113,14 +216,48 @@ const Project = () => {
             satisfaction.JWT authentication which ensures secure access for the
             platform.
           </p>
-          <a
-            className="btn project_btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://crm-application-tm.netlify.app/"
-          >
-            Website
-          </a>
+          <div className="button_container">
+            <a
+              className="btn project_btn"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://crm-application-tm.netlify.app/"
+            >
+              Website
+            </a>
+            <Menu
+              withArrow
+              trigger="hover"
+              transitionProps={{ transition: "rotate-right", duration: 400 }}
+            >
+              <MenuTarget>
+                <button className="btn project_btn">Github</button>
+              </MenuTarget>
+              <MenuDropdown>
+                <MenuLabel>Source code</MenuLabel>
+                <MenuItem>
+                  <a
+                    className="sourceCode_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Tamizh-1153/CRM-App-frontend"
+                  >
+                    Frontend
+                  </a>
+                </MenuItem>
+                <MenuItem>
+                  <a
+                    className="sourceCode_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Tamizh-1153/CRM-App"
+                  >
+                    Backend
+                  </a>
+                </MenuItem>
+              </MenuDropdown>
+            </Menu>
+          </div>
         </div>
       </div>
     </section>
