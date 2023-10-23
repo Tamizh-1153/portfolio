@@ -18,7 +18,7 @@ const About = () => {
         <div className="tech_divider">Tech Skills</div>
         <div className="tech_divider">
           {/* HTML5 */}
-          <Tooltip label="HTML5" withArrow>
+          <Tooltip label="HTML5" withArrow offset={-13}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="260"
@@ -100,7 +100,7 @@ const About = () => {
             </svg>
           </Tooltip>
           {/* CSS */}
-          <Tooltip label="CSS" withArrow>
+          <Tooltip label="CSS" withArrow offset={-13}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="261"
@@ -190,7 +190,7 @@ const About = () => {
             </svg>
           </Tooltip>
           {/* Javascript */}
-          <Tooltip label="Javascript" withArrow>
+          <Tooltip label="Javascript" withArrow offset={-13}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="261"
@@ -264,7 +264,7 @@ const About = () => {
             </svg>
           </Tooltip>
           {/* Bootstrap */}
-          <Tooltip label="Bootstrap" withArrow>
+          <Tooltip label="Bootstrap" withArrow offset={-13}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="261"
@@ -338,7 +338,7 @@ const About = () => {
         </div>
         <div className="tech_divider">
           {/* React */}
-          <Tooltip label="React" withArrow>
+          <Tooltip label="React" withArrow offset={-13}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="261"
@@ -423,7 +423,7 @@ const About = () => {
             </svg>
           </Tooltip>
           {/* NodeJS*/}
-          <Tooltip label="NodeJS" withArrow>
+          <Tooltip label="NodeJS" withArrow offset={-13}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="261"
@@ -497,7 +497,7 @@ const About = () => {
             </svg>
           </Tooltip>
           {/* MongoDB */}
-          <Tooltip label="MongoDB" withArrow>
+          <Tooltip label="MongoDB" withArrow offset={-13}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="261"
@@ -575,7 +575,7 @@ const About = () => {
             </svg>
           </Tooltip>
           {/* mySQL */}
-          <Tooltip label="mySQL" withArrow>
+          <Tooltip label="mySQL" withArrow offset={-13}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="261"
@@ -651,7 +651,7 @@ const About = () => {
         </div>
         <div className="tech_divider">
           {/* MaterialUI */}
-          <Tooltip label="MaterialUI" withArrow>
+          <Tooltip label="MaterialUI" withArrow offset={-13}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="261"
@@ -733,7 +733,7 @@ const About = () => {
             </svg>
           </Tooltip>
           {/* Redux Toolkit */}
-          <Tooltip label="Redux Toolkit" withArrow>
+          <Tooltip label="Redux Toolkit" withArrow offset={-13}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="261"
@@ -803,7 +803,7 @@ const About = () => {
             </svg>
           </Tooltip>
           {/* AWS */}
-          <Tooltip label="AWS" withArrow>
+          <Tooltip label="AWS" withArrow offset={-13}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="261"
@@ -885,7 +885,7 @@ const About = () => {
             </svg>
           </Tooltip>
           {/* React query */}
-          <Tooltip label="React query" withArrow>
+          <Tooltip label="React query" withArrow offset={-13}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="261"
