@@ -23,7 +23,13 @@ const Project = () => {
 
         <h3 className="project_title">Gmail clone</h3>
         <div className="project_img img1">
-          <img src={gmail_clone} alt="loading" />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://gmail-clone-tm.netlify.app/"
+          >
+            <img src={gmail_clone} alt="loading" />
+          </a>
         </div>
 
         <div className="project_desp_wrapper content1">
@@ -127,7 +133,13 @@ const Project = () => {
 
         <h3 className="project_title">Online Shopping with Stripe</h3>
         <div className="project_img img2">
-          <img src={eShopping} alt="loading" />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://online-shopping-tm.netlify.app/"
+          >
+            <img src={eShopping} alt="loading" />
+          </a>
         </div>
 
         <div className="project_desp_wrapper content2">
@@ -236,7 +248,13 @@ const Project = () => {
 
         <h3 className="project_title">Real Estate Booking</h3>
         <div className="project_img img3">
-          <img src={realEstate} alt="loading" />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://real-estate-booking-tm.netlify.app/"
+          >
+            <img src={realEstate} alt="loading" />
+          </a>
         </div>
 
         <div className="project_desp_wrapper content3">
@@ -312,7 +330,13 @@ const Project = () => {
         {/* Project 4 */}
         <h3 className="project_title">CRM Web App</h3>
         <div className="project_img img4">
-          <img src={crm} alt="loading" />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://crm-application-tm.netlify.app/"
+          >
+            <img src={crm} alt="loading" />
+          </a>
         </div>
 
         <div className="project_desp_wrapper content4">
