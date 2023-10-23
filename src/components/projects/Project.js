@@ -4,7 +4,15 @@ import gmail_clone from "../../assets/Gmail_clone.jpg"
 import eShopping from "../../assets/eShopping.png"
 import realEstate from "../../assets/realEstate.png"
 import crm from "../../assets/crm.png"
-import { Menu, MenuDropdown, MenuItem, MenuLabel, MenuTarget } from "@mantine/core"
+import {
+  Menu,
+  MenuDropdown,
+  MenuItem,
+  MenuLabel,
+  MenuTarget,
+} from "@mantine/core"
+import { IconClipboard } from "@tabler/icons-react"
+import { copy } from "../../App"
 
 const Project = () => {
   return (
@@ -24,20 +32,62 @@ const Project = () => {
             Gmail Clone is a full-stack web application developed using
             cutting-edge technologies to replicate the core features and
             functionalities of the popular email platform, Gmail. This project
-            showcases the power of React, Node.js, MongoDB, and Material-UI to
-            create a seamless and responsive email management system.JWT
-            authentication which ensures secure access and a personalized mail
-            service.
+            showcases the power of <strong> React</strong>,{" "}
+            <strong>Node.js</strong>, <strong>MongoDB</strong>, and{" "}
+            <strong>Material-UI</strong> to create a seamless and responsive
+            email management system. <strong>JWT</strong> authentication which
+            ensures secure access and a personalized mail service.
           </p>
           <div className="button_container">
-            <a
-              className="btn project_btn"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://gmail-clone-tm.netlify.app/"
+            <Menu
+              trigger="hover"
+              withArrow
+              transitionProps={{ transition: "rotate-right", duration: 200 }}
             >
-              Website
-            </a>
+              <MenuTarget>
+                <a
+                  className="btn project_btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://gmail-clone-tm.netlify.app/"
+                >
+                  Website
+                </a>
+              </MenuTarget>
+              <MenuDropdown>
+                <MenuLabel>Demo account details</MenuLabel>
+                <MenuItem
+                  style={{ cursor: "auto", color: "#475569" }}
+                  rightSection={
+                    <IconClipboard
+                      onClick={() => copy("tamil@gmail.com")}
+                      style={{
+                        width: "1rem",
+                        height: "1rem",
+                        cursor: "pointer",
+                      }}
+                    />
+                  }
+                >
+                  Email: tamil@gmail.com
+                </MenuItem>
+                <MenuItem
+                  style={{ cursor: "auto", color: "#475569" }}
+                  rightSection={
+                    <IconClipboard
+                      onClick={() => copy("password")}
+                      style={{
+                        width: "1rem",
+                        height: "1rem",
+                        cursor: "pointer",
+                      }}
+                    />
+                  }
+                >
+                  Password : password
+                </MenuItem>
+              </MenuDropdown>
+            </Menu>
             <Menu
               withArrow
               trigger="hover"
@@ -84,25 +134,69 @@ const Project = () => {
           <h3 className="desp_title">Online Shopping with Stripe</h3>
           <p className="project_description">
             The Online Shopping Website is a full-stack web application built
-            using the MERN stack (MongoDB, Express, React, and Node.js) along
-            with several other technologies to provide users with a seamless
-            online shopping experience. The project utilizes Mantine Core, Redux
-            Toolkit, React Query, Axios, and React-Toastify, ensuring robust
-            state management, enhanced user interface, smooth API interactions,
-            and user-friendly notifications and JWT authentication which ensures
-            secure access and a personalized shopping experience. Stripe payment
-            integration allows payment from user and using stripe webhook, order
-            details are updated in database.
+            using the MERN stack (<strong>MongoDB</strong>,{" "}
+            <strong>Express</strong>, <strong>React</strong>, and
+            <strong> Node.js</strong>) along with several other technologies to
+            provide users with a seamless online shopping experience. The
+            project utilizes <strong>Mantine Core</strong>,{" "}
+            <strong>Redux Toolkit</strong>,<strong> React Query</strong>, and{" "}
+            <strong>React-Toastify</strong>, ensuring robust state management,
+            enhanced user interface, smooth API interactions, and user-friendly
+            notifications and <strong>JWT </strong>authentication which ensures
+            secure access and a personalized shopping experience.{" "}
+            <strong>Stripe</strong> payment integration allows payment from user
+            and using stripe webhook, order details are updated in database.
           </p>
           <div className="button_container">
-            <a
-              className="btn project_btn"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://online-shopping-tm.netlify.app/"
+            <Menu
+              trigger="hover"
+              withArrow
+              transitionProps={{ transition: "rotate-right", duration: 200 }}
             >
-              Website
-            </a>
+              <MenuTarget>
+                <a
+                  className="btn project_btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://online-shopping-tm.netlify.app/"
+                >
+                  Website
+                </a>
+              </MenuTarget>
+              <MenuDropdown>
+                <MenuLabel>Demo account details</MenuLabel>
+                <MenuItem
+                  style={{ cursor: "auto", color: "#475569" }}
+                  rightSection={
+                    <IconClipboard
+                      onClick={() => copy("tamil@gmail.com")}
+                      style={{
+                        width: "1rem",
+                        height: "1rem",
+                        cursor: "pointer",
+                      }}
+                    />
+                  }
+                >
+                  Email: tamil@gmail.com
+                </MenuItem>
+                <MenuItem
+                  style={{ cursor: "auto", color: "#475569" }}
+                  rightSection={
+                    <IconClipboard
+                      onClick={() => copy("password")}
+                      style={{
+                        width: "1rem",
+                        height: "1rem",
+                        cursor: "pointer",
+                      }}
+                    />
+                  }
+                >
+                  Password : password
+                </MenuItem>
+              </MenuDropdown>
+            </Menu>
             <Menu
               withArrow
               trigger="hover"
@@ -149,24 +243,40 @@ const Project = () => {
           <h3 className="desp_title">Real Estate Booking</h3>
           <p className="project_description">
             The Real Estate Platform is a cutting-edge web application that
-            leverages the power of React, Node.js, OAuth for authentication,
-            React Query for data fetching, MongoDB for data storage, Mantine for
-            UI components, and Axios for API interactions. This platform
+            leverages the power of <strong>React</strong>,{" "}
+            <strong>Node.js</strong>, <strong>Auth0</strong> for authentication,
+            <strong> React Query</strong> for data fetching,{" "}
+            <strong>MongoDB</strong> for data storage,<strong> Mantine </strong>
+            for UI components, and Axios for API interactions. This platform
             provides a seamless and intuitive experience for users interested in
             buying, selling, or renting real estate properties.
           </p>
           <div className="button_container">
-            <a
-              className="btn project_btn"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://real-estate-booking-tm.netlify.app/"
-            >
-              Website
-            </a>
             <Menu
-              withArrow
               trigger="hover"
+              withArrow
+              transitionProps={{ transition: "rotate-right", duration: 200 }}
+            >
+              <MenuTarget>
+                <a
+                  className="btn project_btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://real-estate-booking-tm.netlify.app/"
+                >
+                  Website
+                </a>
+              </MenuTarget>
+              <MenuDropdown>
+                <MenuLabel>Demo account details</MenuLabel>
+                <MenuItem style={{ color: "#475569" }}>
+                  Use any Google/Microsoft/Facebook account to login
+                </MenuItem>
+              </MenuDropdown>
+            </Menu>
+            <Menu
+              trigger="hover"
+              withArrow
               transitionProps={{ transition: "rotate-right", duration: 400 }}
             >
               <MenuTarget>
@@ -209,22 +319,63 @@ const Project = () => {
           <h3 className="desp_title">CRM Web App</h3>
           <p className="project_description">
             The CRM Web App is a powerful and scalable customer relationship
-            management solution that utilizes React, Node.js, JWT for
-            authentication, and MongoDB for data storage. This web application
+            management solution that utilizes <strong> React</strong>,{" "}
+            <strong>Node.js</strong>, <strong>JWT</strong> for authentication,
+            and <strong>MongoDB</strong> for data storage. This web application
             is designed to help businesses manage and enhance their interactions
             with customers, streamline communication, and improve customer
-            satisfaction.JWT authentication which ensures secure access for the
-            platform.
+            satisfaction.
           </p>
           <div className="button_container">
-            <a
-              className="btn project_btn"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://crm-application-tm.netlify.app/"
+            <Menu
+              trigger="hover"
+              withArrow
+              transitionProps={{ transition: "rotate-right", duration: 200 }}
             >
-              Website
-            </a>
+              <MenuTarget>
+                <a
+                  className="btn project_btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://crm-application-tm.netlify.app/"
+                >
+                  Website
+                </a>
+              </MenuTarget>
+              <MenuDropdown>
+                <MenuLabel>Demo account details</MenuLabel>
+                <MenuItem
+                  style={{ cursor: "auto", color: "#475569" }}
+                  rightSection={
+                    <IconClipboard
+                      onClick={() => copy("tamizh1153@gmail.com")}
+                      style={{
+                        width: "1rem",
+                        height: "1rem",
+                        cursor: "pointer",
+                      }}
+                    />
+                  }
+                >
+                  Email: tamizh@gmail.com
+                </MenuItem>
+                <MenuItem
+                  style={{ cursor: "auto", color: "#475569" }}
+                  rightSection={
+                    <IconClipboard
+                      onClick={() => copy("password")}
+                      style={{
+                        width: "1rem",
+                        height: "1rem",
+                        cursor: "pointer",
+                      }}
+                    />
+                  }
+                >
+                  Password : password
+                </MenuItem>
+              </MenuDropdown>
+            </Menu>
             <Menu
               withArrow
               trigger="hover"
