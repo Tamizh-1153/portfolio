@@ -3,6 +3,7 @@ import "./project.css"
 import gmail_clone from "../../assets/Gmail_clone.jpg"
 import eShopping from "../../assets/eShopping.png"
 import realEstate from "../../assets/realEstate.png"
+import project5 from '../../assets/Project 5.png'
 import crm from "../../assets/crm.png"
 import {
   Menu,
@@ -19,6 +20,120 @@ const Project = () => {
     <section id="projects" className="work container section">
       <h2 className="work_title">Projects</h2>
       <div className="work_container">
+        {/* Project 5 */}
+
+        <h3 className="project_title">Instant Messaging with socket.io</h3>
+        <div className="project_img img5">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://instant-messaging-tm.netlify.app/"
+          >
+            <img src={project5} alt="loading" />
+          </a>
+        </div>
+
+        <div className="project_desp_wrapper content5">
+          <h3 className="desp_title">Instant Messaging with socket.io</h3>
+          <p className="project_description">
+            The website will provide users with the ability to create accounts,
+            join chat with other users, and engage in real-time conversations
+            with other users. It utilizes MERN (<strong> MongoDB</strong>,
+            <strong>Express</strong>,<strong> React</strong>,
+            <strong> Node.js</strong>) stack for the backend and front-end
+            development, integrating powerful libraries like{" "}
+            <strong>Auth0</strong> for authentication,{" "}
+            <strong>Socket.io</strong> for real-time communication,{" "}
+            <strong>Mantine</strong> for UI components,{" "}
+            <strong>Redux Toolkit</strong> for state management,{" "}
+            <strong>and React Query </strong>
+            for efficient data fetching.
+          </p>
+          <div className="button_container">
+            <Menu
+              trigger="hover"
+              withArrow
+              transitionProps={{ transition: "rotate-right", duration: 200 }}
+            >
+              <MenuTarget>
+                <a
+                  className="btn project_btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://instant-messaging-tm.netlify.app/"
+                >
+                  Website
+                </a>
+              </MenuTarget>
+              <MenuDropdown>
+                <MenuLabel>Demo account details</MenuLabel>
+                <MenuItem
+                  style={{ cursor: "auto", color: "#475569" }}
+                  rightSection={
+                    <IconClipboard
+                      onClick={() => copy("puppy@gmail.com")}
+                      style={{
+                        width: "1rem",
+                        height: "1rem",
+                        cursor: "pointer",
+                      }}
+                    />
+                  }
+                >
+                  Email: puppy@gmail.com
+                </MenuItem>
+                <MenuItem
+                  style={{ cursor: "auto", color: "#475569" }}
+                  rightSection={
+                    <IconClipboard
+                      onClick={() => copy("Qwertyui1234@!")}
+                      style={{
+                        width: "1rem",
+                        height: "1rem",
+                        cursor: "pointer",
+                      }}
+                    />
+                  }
+                >
+                  Password : Qwertyui1234@!
+                </MenuItem>
+              </MenuDropdown>
+            </Menu>
+            <Menu
+              withArrow
+              trigger="hover"
+              transitionProps={{ transition: "rotate-right", duration: 400 }}
+            >
+              <MenuTarget>
+                <button className="btn project_btn">Github</button>
+              </MenuTarget>
+              <MenuDropdown>
+                <MenuLabel>Source code</MenuLabel>
+                <MenuItem>
+                  <a
+                    className="sourceCode_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Tamizh-1153/instant_messaging_client"
+                  >
+                    Frontend
+                  </a>
+                </MenuItem>
+                <MenuItem>
+                  <a
+                    className="sourceCode_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Tamizh-1153/instant_messaging_server"
+                  >
+                    Backend
+                  </a>
+                </MenuItem>
+              </MenuDropdown>
+            </Menu>
+          </div>
+        </div>
+
         {/* Project 1 */}
 
         <h3 className="project_title">Gmail clone</h3>

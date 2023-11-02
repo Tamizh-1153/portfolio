@@ -87,11 +87,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
+      "img5 content5"
       " content1 img1"
       "img2 content2 "
       "content3 img3"
-      "content4 img4"
-      ;
+      "content4 img4";
     place-items: center;
     gap: 4rem;
   }
