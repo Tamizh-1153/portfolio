@@ -11,6 +11,7 @@
 .project_img img {
   opacity: 90%;
   transition: transform 0.3s;
+  border-radius: 10px;
 }
 .project_img img:hover {
   transform: scale(1.2);
