@@ -88,11 +88,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
+      "content6 img6"
       "img5 content5"
-      " content1 img1"
-      "img2 content2 "
+      "content1 img1"
+      "img2 content2"
       "content3 img3"
-      "content4 img4";
+      "img4 content4" !important;
     place-items: center;
     gap: 4rem;
   }
@@ -109,6 +110,15 @@
   .img3 {
     grid-area: img3;
   }
+  .img4 {
+    grid-area: img4;
+  }
+  .img5 {
+    grid-area: img5;
+  }
+  .img6 {
+    grid-area: img6;
+  }
 
   .content1 {
     grid-area: content1;
@@ -118,6 +128,15 @@
   }
   .content3 {
     grid-area: content3;
+  }
+  .content4 {
+    grid-area: content4;
+  }
+  .content5 {
+    grid-area: content5;
+  }
+  .content6 {
+    grid-area: content6;
   }
 
   .project_title {
