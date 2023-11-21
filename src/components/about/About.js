@@ -68,9 +68,9 @@ const About = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -158,9 +158,9 @@ const About = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -232,9 +232,9 @@ const About = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -291,8 +291,8 @@ const About = () => {
                 />
               </g>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M101.427 85.7639C95.7212 85.7639 91.4991 90.7581 91.6882 96.1741C91.8696 101.377 91.6339 108.116 89.9374 113.612C88.2348 119.123 85.3575 122.616 80.6567 123.064V128.125C85.3575 128.574 88.2348 132.065 89.9372 137.577C91.6339 143.072 91.8694 149.811 91.688 155.015C91.4989 160.43 95.721 165.425 101.428 165.425H159.894C165.6 165.425 169.821 160.431 169.632 155.015C169.451 149.811 169.686 143.072 171.383 137.577C173.085 132.065 175.956 128.573 180.657 128.125V123.064C175.956 122.615 173.086 119.124 171.383 113.612C169.686 108.117 169.451 101.377 169.632 96.1741C169.821 90.7588 165.6 85.7639 159.894 85.7639H101.426H101.427ZM148.453 134.8C148.453 142.258 142.891 146.781 133.659 146.781H117.945C117.495 146.781 117.064 146.602 116.746 146.284C116.428 145.967 116.25 145.536 116.25 145.086V106.103C116.25 105.653 116.428 105.222 116.746 104.904C117.064 104.587 117.495 104.408 117.945 104.408H133.57C141.267 104.408 146.319 108.578 146.319 114.979C146.319 119.472 142.921 123.495 138.591 124.199V124.434C144.485 125.08 148.453 129.162 148.453 134.8ZM131.946 109.781H122.986V122.437H130.532C136.366 122.437 139.583 120.088 139.583 115.889C139.583 111.954 136.817 109.781 131.946 109.781ZM122.986 127.459V141.406H132.275C138.35 141.406 141.567 138.969 141.567 134.389C141.567 129.808 138.259 127.458 131.885 127.458H122.986V127.459Z"
                 fill="#7952B3"
               />
@@ -304,9 +304,9 @@ const About = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -371,17 +371,17 @@ const About = () => {
               <path
                 d="M131.104 143.657C157.231 143.657 178.411 135.57 178.411 125.594C178.411 115.619 157.231 107.532 131.104 107.532C104.978 107.532 83.7979 115.619 83.7979 125.594C83.7979 135.57 104.978 143.657 131.104 143.657Z"
                 stroke="#61DAFB"
-                stroke-width="5"
+                strokeWidth="5"
               />
               <path
                 d="M115.462 134.625C128.525 157.252 146.119 171.551 154.758 166.563C163.397 161.575 159.81 139.189 146.747 116.563C133.684 93.9366 116.09 79.6377 107.451 84.6255C98.812 89.6133 102.398 111.999 115.462 134.625Z"
                 stroke="#61DAFB"
-                stroke-width="5"
+                strokeWidth="5"
               />
               <path
                 d="M115.462 116.563C102.399 139.189 98.812 161.575 107.451 166.563C116.09 171.551 133.684 157.252 146.747 134.625C159.81 111.999 163.397 89.6133 154.758 84.6255C146.119 79.6376 128.525 93.9365 115.462 116.563Z"
                 stroke="#61DAFB"
-                stroke-width="5"
+                strokeWidth="5"
               />
               <defs>
                 <filter
@@ -391,9 +391,9 @@ const About = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -465,9 +465,9 @@ const About = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -543,9 +543,9 @@ const About = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -617,9 +617,9 @@ const About = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -701,9 +701,9 @@ const About = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -771,9 +771,9 @@ const About = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -834,14 +834,14 @@ const About = () => {
                 fill="#252F3E"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M170.789 143.716C159.847 151.798 143.949 156.088 130.28 156.088C111.123 156.088 93.8611 149.004 80.8236 137.23C79.7926 136.299 80.7239 135.035 81.9544 135.767C96.0562 143.948 113.451 148.904 131.444 148.904C143.583 148.904 156.92 146.376 169.193 141.188C171.022 140.356 172.585 142.385 170.789 143.716Z"
                 fill="#FF9900"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M175.346 138.527C173.949 136.731 166.1 137.663 162.541 138.095C161.477 138.228 161.31 137.297 162.275 136.598C168.528 132.208 178.805 133.472 180.002 134.935C181.199 136.432 179.669 146.709 173.816 151.631C172.918 152.396 172.053 151.997 172.452 150.999C173.782 147.707 176.742 140.29 175.346 138.527Z"
                 fill="#FF9900"
               />
@@ -853,9 +853,9 @@ const About = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -912,8 +912,8 @@ const About = () => {
                 />
               </g>
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M142.711 136.659L140.793 139.99C140.215 140.993 139.145 141.611 137.987 141.611H123.293C122.135 141.611 121.066 140.993 120.488 139.99L118.569 136.659H142.711ZM148.081 127.335L144.699 133.207H116.582L113.2 127.335H148.081ZM144.823 118.217L148.086 123.883H113.194L116.458 118.217H144.823ZM137.987 109.597C139.145 109.597 140.215 110.215 140.793 111.219L142.835 114.765H118.445L120.488 111.219C121.066 110.215 122.135 109.597 123.293 109.597H137.987Z"
                 fill="#00435B"
               />
@@ -922,44 +922,44 @@ const About = () => {
                 fill="#002B3B"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M121.492 105.537C125.445 105.222 129.519 105.084 133.715 105.12C134.509 105.127 135.159 104.489 135.166 103.694C135.169 103.359 135.055 103.034 134.844 102.774C125.294 91.0159 117.431 85.1367 111.253 85.1367C104.876 85.1367 103.057 92.1666 105.795 106.226C105.945 106.997 106.686 107.505 107.459 107.368C112.334 106.504 117.012 105.894 121.492 105.537Z"
                 fill="#FF4154"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M143.682 107.472C145.965 110.762 148.156 114.246 150.255 117.923C150.649 118.613 151.527 118.853 152.218 118.46C152.507 118.294 152.73 118.034 152.849 117.723C158.251 103.553 159.386 93.7814 156.255 88.4072C153.023 82.8614 145.982 84.779 135.132 94.16C134.536 94.6757 134.465 95.5756 134.975 96.1777C138.199 99.9885 141.101 103.753 143.682 107.472Z"
                 fill="#FF4154"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M153.263 127.268C151.555 130.858 149.634 134.467 147.502 138.094C147.099 138.779 147.328 139.661 148.013 140.064C148.303 140.234 148.644 140.298 148.976 140.243C163.863 137.796 172.853 133.889 175.945 128.523C179.139 122.981 174.003 117.902 160.537 113.285C159.795 113.031 158.987 113.417 158.718 114.154C157.019 118.824 155.201 123.195 153.263 127.268Z"
                 fill="#FF4154"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M141.048 145.851C137.095 146.166 133.021 146.305 128.825 146.268C128.03 146.261 127.38 146.9 127.373 147.694C127.37 148.029 127.484 148.354 127.695 148.614C137.245 160.373 145.109 166.252 151.286 166.252C157.664 166.252 159.483 159.222 156.744 145.162C156.594 144.392 155.854 143.884 155.081 144.021C150.205 144.885 145.527 145.495 141.048 145.851Z"
                 fill="#FF4154"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M118.318 144.096C116.035 140.806 113.844 137.323 111.745 133.645C111.351 132.955 110.473 132.715 109.782 133.109C109.493 133.274 109.27 133.534 109.151 133.846C103.749 148.015 102.614 157.787 105.745 163.161C108.977 168.707 116.018 166.789 126.868 157.408C127.464 156.893 127.535 155.993 127.025 155.391C123.801 151.58 120.899 147.815 118.318 144.096Z"
                 fill="#FF4154"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M108.737 123.761C110.445 120.17 112.366 116.561 114.498 112.934C114.901 112.249 114.672 111.368 113.987 110.965C113.697 110.794 113.356 110.731 113.024 110.785C98.1371 113.233 89.1474 117.14 86.0551 122.506C82.8614 128.048 87.9973 133.127 101.463 137.744C102.205 137.998 103.013 137.612 103.282 136.875C104.981 132.205 106.799 127.834 108.737 123.761Z"
                 fill="#FF4154"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M124.474 109.777H136.809C138.613 109.777 140.279 110.742 141.177 112.306L147.37 123.098C148.261 124.65 148.261 126.559 147.37 128.111L141.177 138.902C140.279 140.467 138.613 141.432 136.809 141.432H124.474C122.671 141.432 121.005 140.467 120.107 138.902L113.913 128.111C113.023 126.559 113.023 124.65 113.913 123.098L120.107 112.306C121.005 110.742 122.671 109.777 124.474 109.777ZM134.929 113.034C136.734 113.034 138.4 114 139.298 115.566L143.617 123.1C144.506 124.651 144.506 126.557 143.617 128.109L139.298 135.643C138.4 137.209 136.734 138.175 134.929 138.175H126.354C124.55 138.175 122.883 137.209 121.985 135.643L117.667 128.109C116.777 126.557 116.777 124.651 117.667 123.1L121.985 115.566C122.883 114 124.55 113.034 126.354 113.034H134.929ZM132.903 116.596H128.38C126.578 116.596 124.912 117.56 124.014 119.124L121.732 123.095C120.839 124.649 120.839 126.56 121.732 128.113L124.014 132.085C124.912 133.648 126.578 134.612 128.38 134.612H132.903C134.706 134.612 136.371 133.648 137.269 132.085L139.551 128.113C140.444 126.56 140.444 124.649 139.551 123.095L137.269 119.124C136.371 117.56 134.706 116.596 132.903 116.596ZM130.952 120.006C132.753 120.006 134.418 120.969 135.316 122.53L135.64 123.092C136.535 124.647 136.535 126.561 135.64 128.116L135.316 128.679C134.418 130.24 132.753 131.202 130.952 131.202H130.332C128.53 131.202 126.866 130.24 125.967 128.679L125.643 128.116C124.748 126.561 124.748 124.647 125.643 123.092L125.967 122.53C126.866 120.969 128.53 120.006 130.332 120.006H130.952ZM130.642 123.365C129.841 123.365 129.101 123.792 128.701 124.485C128.3 125.177 128.3 126.031 128.701 126.724C129.101 127.417 129.841 127.844 130.641 127.844C131.443 127.844 132.182 127.417 132.582 126.724C132.983 126.031 132.983 125.177 132.582 124.485C132.182 123.792 131.443 123.365 130.642 123.365ZM112.475 125.604H116.506H112.475Z"
                 fill="#FFD94C"
               />
@@ -971,9 +971,9 @@ const About = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"

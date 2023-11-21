@@ -109,9 +109,9 @@ const Contact = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -171,7 +171,7 @@ const Contact = () => {
                   stroke="white"
                 />
               </g>
-              <g clip-path="url(#clip0_307_369)">
+              <g clipPath="url(#clip0_307_369)">
                 <path
                   d="M168.504 86H93.4961C91.7732 86 90.1209 86.6455 88.9027 87.7946C87.6844 88.9436 87 90.502 87 92.127V162.873C87 164.498 87.6844 166.056 88.9027 167.205C90.1209 168.354 91.7732 169 93.4961 169H168.504C170.227 169 171.879 168.354 173.097 167.205C174.316 166.056 175 164.498 175 162.873V92.127C175 90.502 174.316 88.9436 173.097 87.7946C171.879 86.6455 170.227 86 168.504 86ZM113.229 156.706H99.9983V117.067H113.229V156.706ZM106.604 111.574C105.104 111.566 103.639 111.139 102.395 110.347C101.152 109.555 100.185 108.433 99.6166 107.122C99.0484 105.812 98.9044 104.373 99.2028 102.985C99.5012 101.598 100.229 100.325 101.293 99.3277C102.358 98.3299 103.712 97.652 105.185 97.3795C106.657 97.107 108.183 97.252 109.568 97.7963C110.954 98.3406 112.137 99.2598 112.969 100.438C113.801 101.616 114.245 103 114.243 104.416C114.257 105.363 114.069 106.304 113.69 107.182C113.31 108.059 112.747 108.856 112.034 109.524C111.322 110.192 110.473 110.718 109.541 111.07C108.608 111.422 107.609 111.594 106.604 111.574ZM161.996 156.74H148.771V135.085C148.771 128.699 145.893 126.728 142.177 126.728C138.254 126.728 134.404 129.517 134.404 135.247V156.74H121.173V117.096H133.897V122.589H134.068C135.345 120.151 139.818 115.984 146.644 115.984C154.027 115.984 162.002 120.116 162.002 132.221L161.996 156.74Z"
                   fill="#0A66C2"
@@ -185,9 +185,9 @@ const Contact = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -271,9 +271,9 @@ const Contact = () => {
                   width="260"
                   height="260"
                   filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
+                  colorInterpolationFilters="sRGB"
                 >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feFlood floodOpacity="0" result="BackgroundImageFix" />
                   <feColorMatrix
                     in="SourceAlpha"
                     type="matrix"
@@ -314,8 +314,8 @@ const Contact = () => {
               value={formik.values.name}
             />
             {formik.touched.name && formik.errors.name ? (
-              <p className='form_error'>{formik.errors.name}</p>
-            ): null}
+              <p className="form_error">{formik.errors.name}</p>
+            ) : null}
             <input
               type="email"
               name="email"
@@ -324,8 +324,8 @@ const Contact = () => {
               onBlur={formik.handleBlur}
               value={formik.values.email}
             />
-            {formik.touched.email &&  formik.errors.email ? (
-              <p className='form_error'>{formik.errors.email}</p>
+            {formik.touched.email && formik.errors.email ? (
+              <p className="form_error">{formik.errors.email}</p>
             ) : null}
             <input
               type="text"
@@ -336,7 +336,7 @@ const Contact = () => {
               value={formik.values.subject}
             />
             {formik.touched.subject && formik.errors.subject ? (
-              <p className='form_error'>{formik.errors.subject} </p>
+              <p className="form_error">{formik.errors.subject} </p>
             ) : null}
             <textarea
               name="message"
@@ -348,9 +348,11 @@ const Contact = () => {
               rows="5"
             ></textarea>
             {formik.touched.message && formik.errors.message ? (
-              <p className='form_error'>{formik.errors.message} </p>
+              <p className="form_error">{formik.errors.message} </p>
             ) : null}
-            <button type="submit" className="contact_btn btn">Send Message</button>
+            <button type="submit" className="contact_btn btn">
+              Send Message
+            </button>
           </form>
         </div>
       </div>

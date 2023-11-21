@@ -21,6 +21,118 @@ const Project = () => {
     <section id="projects" className="work container section">
       <h2 className="work_title">Projects</h2>
       <div className="work_container">
+        {/* Project 6 */}
+        <h3 className="project_title">Recipe book</h3>
+        <div className="project_img img6">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://recipebook-tm.netlify.app/"
+          >
+            <img src={project6} alt="loading" />
+          </a>
+        </div>
+
+        <div className="project_desp_wrapper content6">
+          <h3 className="desp_title">Recipe book</h3>
+          <p className="project_description">
+            Recipe book website is a full-stack web application built using the
+            MERN stack (<strong>MongoDB</strong>, <strong>Express</strong>,{" "}
+            <strong>React</strong>, and
+            <strong> Node.js</strong>) along with several other technologies for
+            viewing, creating and adding recipes to their collection. The
+            project utilizes <strong>Mantine</strong>,
+            <strong> Bootstrap </strong> , <strong>Redux Toolkit </strong>,
+            <strong> React Query </strong>, and <strong>React-Toastify </strong>
+            , ensuring robust state management, enhanced user interface, smooth
+            API interactions, and user-friendly notifications and{" "}
+            <strong>JWT </strong>authentication which ensures secure access.
+          </p>
+          <div className="button_container">
+            <Menu
+              trigger="hover"
+              withArrow
+              transitionProps={{ transition: "rotate-right", duration: 200 }}
+            >
+              <MenuTarget>
+                <a
+                  className="btn project_btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://recipebook-tm.netlify.app/"
+                >
+                  Website
+                </a>
+              </MenuTarget>
+              <MenuDropdown>
+                <MenuLabel>Demo account details</MenuLabel>
+                <MenuItem
+                  style={{ cursor: "auto", color: "#475569" }}
+                  rightSection={
+                    <IconClipboard
+                      onClick={() => copy("tamil@gmail.com")}
+                      style={{
+                        width: "1rem",
+                        height: "1rem",
+                        cursor: "pointer",
+                      }}
+                    />
+                  }
+                >
+                  Email: tamil@gmail.com
+                </MenuItem>
+                <MenuItem
+                  style={{ cursor: "auto", color: "#475569" }}
+                  rightSection={
+                    <IconClipboard
+                      onClick={() => copy("password")}
+                      style={{
+                        width: "1rem",
+                        height: "1rem",
+                        cursor: "pointer",
+                      }}
+                    />
+                  }
+                >
+                  Password : password
+                </MenuItem>
+              </MenuDropdown>
+            </Menu>
+            <Menu
+              withArrow
+              trigger="hover"
+              transitionProps={{ transition: "rotate-right", duration: 400 }}
+            >
+              <MenuTarget>
+                <button className="btn project_btn">Github</button>
+              </MenuTarget>
+              <MenuDropdown>
+                <MenuLabel>Source code</MenuLabel>
+                <MenuItem>
+                  <a
+                    className="sourceCode_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Tamizh-1153/recipeBook-frontend"
+                  >
+                    Frontend
+                  </a>
+                </MenuItem>
+                <MenuItem>
+                  <a
+                    className="sourceCode_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Tamizh-1153/recipeBook-backend"
+                  >
+                    Backend
+                  </a>
+                </MenuItem>
+              </MenuDropdown>
+            </Menu>
+          </div>
+        </div>
+
         {/* Project 5 */}
 
         <h3 className="project_title">Instant Messaging with socket.io</h3>
@@ -126,117 +238,6 @@ const Project = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://github.com/Tamizh-1153/instant_messaging_server"
-                  >
-                    Backend
-                  </a>
-                </MenuItem>
-              </MenuDropdown>
-            </Menu>
-          </div>
-        </div>
-        {/* Project 6 */}
-        <h3 className="project_title">Recipe book</h3>
-        <div className="project_img img6">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://recipebook-tm.netlify.app/"
-          >
-            <img src={project6} alt="loading" />
-          </a>
-        </div>
-
-        <div className="project_desp_wrapper content6">
-          <h3 className="desp_title">Recipe book</h3>
-          <p className="project_description">
-            Recipe book website is a full-stack web application built using the
-            MERN stack (<strong>MongoDB</strong>, <strong>Express</strong>,{" "}
-            <strong>React</strong>, and
-            <strong> Node.js</strong>) along with several other technologies for
-            viewing, creating and adding recipes to their collection. The
-            project utilizes <strong>Mantine</strong>,
-            <strong> Bootstrap </strong> , <strong>Redux Toolkit </strong>,
-            <strong> React Query </strong>, and <strong>React-Toastify </strong>,
-            ensuring robust state management, enhanced user interface, smooth
-            API interactions, and user-friendly notifications and{" "}
-            <strong>JWT </strong>authentication which ensures secure access.
-          </p>
-          <div className="button_container">
-            <Menu
-              trigger="hover"
-              withArrow
-              transitionProps={{ transition: "rotate-right", duration: 200 }}
-            >
-              <MenuTarget>
-                <a
-                  className="btn project_btn"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://recipebook-tm.netlify.app/"
-                >
-                  Website
-                </a>
-              </MenuTarget>
-              <MenuDropdown>
-                <MenuLabel>Demo account details</MenuLabel>
-                <MenuItem
-                  style={{ cursor: "auto", color: "#475569" }}
-                  rightSection={
-                    <IconClipboard
-                      onClick={() => copy("tamil@gmail.com")}
-                      style={{
-                        width: "1rem",
-                        height: "1rem",
-                        cursor: "pointer",
-                      }}
-                    />
-                  }
-                >
-                  Email: tamil@gmail.com
-                </MenuItem>
-                <MenuItem
-                  style={{ cursor: "auto", color: "#475569" }}
-                  rightSection={
-                    <IconClipboard
-                      onClick={() => copy("password")}
-                      style={{
-                        width: "1rem",
-                        height: "1rem",
-                        cursor: "pointer",
-                      }}
-                    />
-                  }
-                >
-                  Password : password
-                </MenuItem>
-              </MenuDropdown>
-            </Menu>
-            <Menu
-              withArrow
-              trigger="hover"
-              transitionProps={{ transition: "rotate-right", duration: 400 }}
-            >
-              <MenuTarget>
-                <button className="btn project_btn">Github</button>
-              </MenuTarget>
-              <MenuDropdown>
-                <MenuLabel>Source code</MenuLabel>
-                <MenuItem>
-                  <a
-                    className="sourceCode_link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/Tamizh-1153/recipeBook-frontend"
-                  >
-                    Frontend
-                  </a>
-                </MenuItem>
-                <MenuItem>
-                  <a
-                    className="sourceCode_link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/Tamizh-1153/recipeBook-backend"
                   >
                     Backend
                   </a>
