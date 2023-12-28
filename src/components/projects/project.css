@@ -88,12 +88,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "content6 img6"
-      "img5 content5"
-      "content1 img1"
-      "img2 content2"
-      "content3 img3"
-      "img4 content4" !important;
+    "img7 content7"
+    "content6 img6"
+    "img5 content5"
+    "content1 img1"
+    "img2 content2"
+    "content3 img3"
+    "img4 content4"
+       ;
     place-items: center;
     gap: 4rem;
   }

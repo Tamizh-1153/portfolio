@@ -5,6 +5,7 @@ import eShopping from "../../assets/eShopping.png"
 import realEstate from "../../assets/realEstate.png"
 import project5 from "../../assets/Project 5.png"
 import project6 from "../../assets/Project 6.png"
+import project7 from "../../assets/IMDB clone.png"
 import crm from "../../assets/crm.png"
 import {
   Menu,
@@ -21,6 +22,109 @@ const Project = () => {
     <section id="projects" className="work container section">
       <h2 className="work_title">Projects</h2>
       <div className="work_container">
+
+      {/* Project 7 */}
+      <h3 className="project_title">IMDB Clone</h3>
+        <div className="project_img img7">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://imdb-clone-tm.netlify.app/"
+          >
+            <img src={project7} alt="loading" />
+          </a>
+        </div>
+
+        <div className="project_desp_wrapper content7">
+          <h3 className="desp_title">IMDB Clone</h3>
+          <p className="project_description">
+          This project aims to replicate the functionality of the popular Internet Movie Database (IMDb) using the <strong>MERN</strong>  (<strong>MongoDB</strong>, <strong>Express.js</strong>, <strong>React</strong>, <strong>Node.js</strong>) stack. It incorporates modern technologies such as <strong>JWT</strong> authentication for secure user access, <strong>Mantine</strong> for a sleek and responsive UI, <strong>React Query</strong> for efficient API handling, and <strong>Redux</strong> for effective state management.
+          </p>
+          <div className="button_container">
+            <Menu
+              trigger="hover"
+              withArrow
+              transitionProps={{ transition: "rotate-right", duration: 200 }}
+            >
+              <MenuTarget>
+                <a
+                  className="btn project_btn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://imdb-clone-tm.netlify.app/"
+                >
+                  Website
+                </a>
+              </MenuTarget>
+              <MenuDropdown>
+                <MenuLabel>Demo account details</MenuLabel>
+                <MenuItem
+                  style={{ cursor: "auto", color: "#475569" }}
+                  rightSection={
+                    <IconClipboard
+                      onClick={() => copy("tamil@gmail.com")}
+                      style={{
+                        width: "1rem",
+                        height: "1rem",
+                        cursor: "pointer",
+                      }}
+                    />
+                  }
+                >
+                  Email: tamil@gmail.com
+                </MenuItem>
+                <MenuItem
+                  style={{ cursor: "auto", color: "#475569" }}
+                  rightSection={
+                    <IconClipboard
+                      onClick={() => copy("password")}
+                      style={{
+                        width: "1rem",
+                        height: "1rem",
+                        cursor: "pointer",
+                      }}
+                    />
+                  }
+                >
+                  Password : password
+                </MenuItem>
+              </MenuDropdown>
+            </Menu>
+            <Menu
+              withArrow
+              trigger="hover"
+              transitionProps={{ transition: "rotate-right", duration: 400 }}
+            >
+              <MenuTarget>
+                <button className="btn project_btn">Github</button>
+              </MenuTarget>
+              <MenuDropdown>
+                <MenuLabel>Source code</MenuLabel>
+                <MenuItem>
+                  <a
+                    className="sourceCode_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Tamizh-1153/imdb-clone-frontend"
+                  >
+                    Frontend
+                  </a>
+                </MenuItem>
+                <MenuItem>
+                  <a
+                    className="sourceCode_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/Tamizh-1153/imdb-clone-backend"
+                  >
+                    Backend
+                  </a>
+                </MenuItem>
+              </MenuDropdown>
+            </Menu>
+          </div>
+        </div>
+
         {/* Project 6 */}
         <h3 className="project_title">Recipe book</h3>
         <div className="project_img img6">
