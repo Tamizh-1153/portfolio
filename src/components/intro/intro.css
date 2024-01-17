@@ -11,7 +11,7 @@
 .intro_image {
   width: 70px;
   height: 100px;
-  box-shadow: 0 0 3px 7px rgba(248, 248, 248, 0.3)  ;
+  box-shadow: 0 0 4px 5px rgba(227, 227, 209, 0.76)  ;
   animation: profile_pic 5s ease-in-out infinite 1s;
 }
 
@@ -129,5 +129,7 @@
     font-size: var(--size-xl);
   }
 }
+
+/* box-shadow: 0 0 3px 7px rgba(248, 248, 248, 0.3)  ; */
 
 
