@@ -11,6 +11,7 @@
 .intro_image {
   width: 70px;
   height: 100px;
+  object-fit:cover;
   box-shadow: 0 0 4px 5px rgba(227, 227, 209, 0.76)  ;
   animation: profile_pic 5s ease-in-out infinite 1s;
 }
